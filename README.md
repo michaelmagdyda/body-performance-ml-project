@@ -4,14 +4,6 @@
 
 An end-to-end machine learning pipeline on the Body Performance dataset: exploratory data analysis, rule-based data cleaning, classification of fitness level (classes A–D) with six models across three train/test splits, K-Means clustering, and regression models predicting broad-jump distance.
 
-## Team
-
-1. Michael Magdy Amin Sidhom (Team Leader)
-2. Karim Mostafa Ali Ibrahim
-3. Ali Ibrahim Ahmed Osman
-4. Omar Ahmed Omar Abdelfattah
-5. Mohamed Elsayed Ibrahim Deshesha
-
 ## Dataset
 Physical fitness measurements for **13,393 participants** (13,288 after cleaning): age, gender, height, weight, body fat %, blood pressure (diastolic/systolic), grip force, sit-and-bend-forward flexibility, sit-ups count and broad jump. **BMI** was added as an engineered feature. Target: performance `class` A (best) to D.
 
