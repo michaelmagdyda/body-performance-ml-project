@@ -1,0 +1,7 @@
+model,split,cv_accuracy,test_accuracy,f1_macro,f1_weighted,best_params
+NeuralNetwork,50:50,0.7203473034349588,0.7370559903672487,0.7373663818940923,0.7368893082033766,"{'clf__activation': 'relu', 'clf__alpha': np.float64(0.0027541439213320295), 'clf__hidden_layer_sizes': (64, 32), 'clf__learning_rate_init': np.float64(0.006586289317583112)}"
+RandomForest,50:50,0.7149338890550917,0.7227573750752558,0.7226614513865698,0.7222090218134881,"{'clf__max_depth': 23, 'clf__max_features': 0.5, 'clf__min_samples_leaf': 6, 'clf__min_samples_split': 3, 'clf__n_estimators': 443}"
+SVM,50:50,0.6891930022573364,0.7001806140878989,0.7002650037050252,0.699759508910628,"{'clf__C': np.float64(5.9874749104613985), 'clf__gamma': 'scale', 'clf__kernel': 'rbf'}"
+DecisionTree,50:50,0.6387745111370992,0.6453943407585792,0.6485081019270353,0.6479902492687476,"{'clf__criterion': 'entropy', 'clf__max_depth': 23, 'clf__max_features': None, 'clf__min_samples_leaf': 19, 'clf__min_samples_split': 24}"
+KNN,50:50,0.6136380737396538,0.6247742323901264,0.6259229390608338,0.6254177980827546,"{'clf__metric': 'manhattan', 'clf__n_neighbors': 28, 'clf__weights': 'distance'}"
+LogisticReg,50:50,0.6169472472281904,0.6186032510535822,0.6165736775320778,0.61597006884904,"{'clf__C': np.float64(0.21568228019263963), 'clf__penalty': 'l2', 'clf__solver': 'lbfgs'}"
